@@ -1,0 +1,274 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Ctyassistant" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+     <!--   <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+
+        -->
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!-- Text color and background color -->
+        <item name="textFillColor">@color/black</item>
+        <item name="backgroundColor">@color/white</item>
+
+    </style>
+
+    <style name="materialedittext">
+        <item name="hintTextColor">@color/black</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="helperTextTextColor">@color/secondary_text</item>
+        <item name="hintEnabled">true</item>
+    </style>
+
+    <style name="toolbarlogin">
+        <item name="android:background">@color/campuscolor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="navigationIcon">?attr/homeAsUpIndicator</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="subtitleTextAppearance">@font/allerta_stencil</item>
+        <item name="titleTextColor">@color/black</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="toolbarmap">
+        <item name="android:background">@color/campuscolor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="titleTextColor">@color/black</item>
+    </style>
+
+    <style name="toolbar">
+        <item name="android:background">@color/campuscolor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="navigationIcon">?attr/homeAsUpIndicator</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="subtitleTextAppearance">@font/allerta_stencil</item>
+        <item name="titleTextColor">@color/black</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+
+    <style name="imageViewNight">
+        <item name="tint">@color/black</item>
+        <item name="android:fillColor">@color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:src">@drawable/ic_baseline_person_24</item>
+    </style>
+
+
+    <style name="imageViewAdmin">
+        <item name="tint">@color/black</item>
+        <item name="android:fillColor">@color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:src">@drawable/ic_baseline_admin_panel_settings_24</item>
+    </style>
+
+
+    <style name="imageViewfeedb">
+        <item name="tint">@color/black</item>
+        <item name="android:fillColor">@color/blue</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:src">@drawable/ic_twotone_feedback_24</item>
+    </style>
+
+    <style name="buttonThemes">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/roboto_italic</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/roundborders</item>
+    </style>
+
+    <style name="progressbar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:visibility">invisible</item>
+        <item name="progressBarStyle">?android:attr/progressBarStyle</item>
+        <item name="color">@color/black</item>
+    </style>
+
+    <style name="editTextSearch">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:hint">@string/search</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="searchHintIcon">@color/red</item>
+    </style>
+
+
+    <style name="relativeOurMap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/roundborders</item>
+    </style>
+
+    <style name="searchBt">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:visibility">invisible</item>
+        <item name="contentDescription">@string/settingsIcon</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/ic_baseline_search_24</item>
+        <item name="android:backgroundTint">@color/transp</item>
+    </style>
+
+    <style name="settingsbutton">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/antic</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="divide">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="paddingStart">30dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="color">@color/divider</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/allerta_stencil</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="closebt">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:fillColor">@color/white</item>
+        <item name="tint">@color/black</item>
+    </style>
+
+    <style name="imageBtn">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="backgroundTint">?backgroundColor</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/ic_baseline_add_photo_alternate_24</item>
+    </style>
+
+
+    <style name="imageV">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">220dp</item>
+        <item name="android:fillColor">@color/white</item>
+        <!--
+          <item name="android:src">@drawable/ic_baseline_image_24</item> -->
+    </style>
+
+    <style name="dialogstyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/toproundborders</item>
+    </style>
+
+    <style name="textLocInfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textStyle">normal|italic</item>
+    </style>
+
+    <style name="titleappear">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="android:fontFamily">@font/antic</item>
+        <item name="android:textStyle">italic|normal</item>
+    </style>
+
+    <style name="recyctexts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:fontFamily">@font/montserrat_alternates</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="android:textStyle">italic|normal</item>
+    </style>
+
+    <style name="recycMainValues">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_italic</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="android:textStyle">italic|normal</item>
+    </style>
+
+    <style name="searchplace">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:background">@drawable/roundborders</item>
+        <item name="android:textColor">?textFillColor</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">30sp</item>
+
+    </style>
+
+
+</resources>

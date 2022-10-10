@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    android:orientation="vertical"
+    tools:context=".AdminMain">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/accDetToolbar"
+        style="@style/toolbarlogin" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/AccDetLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/roboto_light_italic"
+            android:text="@string/leave"
+            android:textAllCaps="true"
+            android:textColor="?textFillColor"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView style="@style/imageViewAdmin" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addAnAdminAccDet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/antic"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp"
+                android:text="@string/add_an_admin"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="?textFillColor"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button style="@style/divide" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addPlaceAccDet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_baseline_add_location_alt_24"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/antic"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp"
+                android:text="@string/add_a_place"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="?textFillColor"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button style="@style/divide" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/viewLocationsAccDet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_baseline_location_on_24blue"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/antic"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp"
+                android:text="@string/view_locations"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="?textFillColor"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button style="@style/divide" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/viewfeedbacksAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_baseline_feedback_24"
+                android:drawablePadding="12dp"
+                android:fontFamily="@font/antic"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp"
+                android:text="@string/view_feedbacks_issues"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="?textFillColor"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

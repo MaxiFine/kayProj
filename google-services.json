@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "450185060361",
+    "project_id": "city-assistant-e792a",
+    "storage_bucket": "city-assistant-e792a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450185060361:android:063a8d0ca51c432a46d8d8",
+        "android_client_info": {
+          "package_name": "com.example.ctyassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450185060361-b5re8voap4jc5bkd4ogrf73iklschugu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlN-AECZ0BZZ7NuCjtZT1mf4GppZ3g5Qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450185060361-b5re8voap4jc5bkd4ogrf73iklschugu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">City Assistant</string>
+
+    <string name="mapbox_access_token">
+        pk.eyJ1IjoiZ2VvcmdlZWVlIiwiYSI6ImNsODM4YTE0dTAxZWwzdGxmbXFneDJuZDMifQ.nw7STuYjK1YeYyap2hUd4A
+    </string>
+
+    <string name="send">Send</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-mail</string>
+    <string name="city_assistant">City Assistant</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="user_name">User Name</string>
+    <string name="search">Search</string>
+    <string name="direction">Direction</string>
+    <string name="get_current_location">get current location</string>
+    <string name="settingsIcon">settings icon</string>
+    <string name="feedback">Send Feeback / report an issue</string>
+    <string name="report_issue_or_provide_feedback">report issue or provide feedback</string>
+    <string name="sign_up_button">sign up button</string>
+    <string name="log_in_button">log in button</string>
+    <string name="settings">Settings</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="name_of_place">Name of Place</string>
+    <string name="add_place">add Place</string>
+    <string name="geographic_coordinates">Geographic Coordinates</string>
+    <string name="add_an_image_images">Add Image</string>
+    <string name="classification_of_the_place">description</string>
+    <string name="add_an_image">add an image</string>
+    <string name="log_out">Log out</string>
+    <string name="add_a_location">Add a location</string>
+    <string name="account_details">Account Details</string>
+    <string name="to_close_the_dialog_box">to close the dialog box</string>
+    <string name="the_image_will_be_displayed_here">the image will be displayed here</string>
+    <string name="feedbacktextView">Your suggestions and feedbacks are welcomed. Issues will be rectified and solved immediately.</string>
+    <string name="feedback_drawable">feedback drawable</string>
+    <string name="feedback_issues">feedback / issues</string>
+    <string name="log_in_as_admin">Log in as Admin</string>
+    <string name="add_an_admin">Add an Admin</string>
+    <string name="add_a_place">Add a place</string>
+    <string name="view_locations">View Locations</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo_display_logo">TODO_display logo</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="searchTool">search</string>
+    <string name="send_feedback_issue">send Feedback / issue</string>
+    <string name="description">description</string>
+    <string name="view_feedbacks_issues">View Feedbacks / Issues</string>
+    <string name="exit">Exit</string>
+    <string name="from">From</string>
+    <string name="to">to</string>
+    <string name="image">image</string>
+    <string name="leave">Leave</string>
+    <string name="type_of_institution">Type of Institution</string>
+    <string name="name">Name</string>
+    <string name="start_navigation">Start Navigation</string>
+
+</resources>

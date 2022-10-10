@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/locationInfoLayout"
+        style="@style/dialogstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+
+        <ImageButton
+            android:id="@+id/closebtnLocInfo"
+            style="@style/closebt"
+            android:backgroundTint="?backgroundColor"
+            android:contentDescription="@string/to_close_the_dialog_box"
+            android:src="@drawable/ic_baseline_close_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/imageLocInfo"
+                style="@style/imageV" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/directionLocInfo"
+            style="@style/buttonThemes"
+            android:layout_gravity="start"
+            android:layout_marginEnd="170dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_baseline_directions_24"
+            android:drawablePadding="20dp"
+            android:drawableTint="?textFillColor"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:text="Direction" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/textLocInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name" />
+
+                <TextView
+                    android:id="@+id/nameLocInfo"
+                    style="@style/textLocInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text=" " />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/textLocInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type_of_institution" />
+
+                <TextView
+                    android:id="@+id/typeOfInstitutionLocInfo"
+                    style="@style/textLocInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text=" " />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

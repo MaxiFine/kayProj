@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mapActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/mapToolbar"
+                style="@style/toolbarmap"
+                app:title="@string/app_name"
+                app:titleMarginStart="10dp"
+                app:titleTextAppearance="@style/titleappear" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"/>
+
+        <com.mapbox.maps.MapView
+         xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            mapbox:mapbox_cameraTargetLat="7.334941"
+            mapbox:mapbox_cameraTargetLng="-2.312303"
+            mapbox:mapbox_cameraZoom="12" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/direButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="170dp"
+        android:backgroundTint="@color/gray"
+        android:contentDescription="@string/direction"
+        android:src="@drawable/ic_baseline_directions_24" />
+
+    <ImageButton
+        android:id="@+id/getCurDir"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/citycomplement"
+        android:contentDescription="@string/get_current_location"
+        android:src="@drawable/ic_baseline_gps_fixed_24" />
+
+</RelativeLayout>

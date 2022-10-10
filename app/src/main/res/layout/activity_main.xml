@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/campuscolor"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/todo_display_logo"
+        android:src="@drawable/img_20220907_wa0219" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="156dp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="@string/city_assistant"
+        android:textAlignment="center"
+        android:textColor="@color/campustextcolor"
+        android:textSize="40sp"
+        android:textStyle="normal|bold" />
+
+
+</RelativeLayout>

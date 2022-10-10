@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    tools:context=".adminLogIn">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/loginToolbar"
+        style="@style/toolbarlogin" />
+
+    <ProgressBar
+        android:id="@+id/progressLogin"
+        style="@style/progressbar" />
+
+
+    <ImageView
+        style="@style/imageViewNight"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/image" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/materialedittext"
+            android:layout_marginTop="10dp"
+            android:hint="@string/e_mail"
+            app:helperText="example: youremail@...com  ">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="?textFillColor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/materialedittext"
+            android:layout_marginTop="120dp"
+            android:hint="@string/password"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pwordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="?textFillColor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnlogin"
+            style="@style/buttonThemes"
+            android:text="@string/log_in" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnforgotpw"
+            style="@style/buttonThemes"
+            android:layout_marginTop="80dp"
+            android:text="@string/forgot_password" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

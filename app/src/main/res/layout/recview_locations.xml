@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/deletePlaces"
+            app:tint="?textFillColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+        <ImageView
+            android:id="@+id/imagesPlaces"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:id="@+id/timePlaces"
+            style="@style/recycMainValues"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="10dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/recyctexts"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/name_of_place" />
+
+            <TextView
+                android:id="@+id/namePlaces"
+                style="@style/recycMainValues" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/recyctexts"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/description" />
+
+            <TextView
+                android:id="@+id/descriptionPlaces"
+                style="@style/recycMainValues" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/antic"
+            android:text="@string/geographic_coordinates"
+            android:textColor="?textFillColor"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/recyctexts"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/latitude" />
+
+            <TextView
+                android:id="@+id/latPlaces"
+                style="@style/recycMainValues" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/recyctexts"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/longitude" />
+
+            <TextView
+                android:id="@+id/lngPlaces"
+                style="@style/recycMainValues" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/citycomplement" />
+
+
+</LinearLayout>

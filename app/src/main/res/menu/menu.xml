@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/actionsearch"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:iconTint="?textFillColor"
+        android:title="@string/searchTool"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        tools:targetApi="o" />
+
+    <item
+        android:id="@+id/feedbSett"
+        android:title="@string/send_feedback_issue"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addlocSett"
+        android:title="@string/log_in_as_admin"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/LogoutSett"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+
+</menu>

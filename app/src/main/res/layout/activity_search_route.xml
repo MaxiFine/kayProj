@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?backgroundColor"
+    android:orientation="vertical"
+    tools:context=".searchRoute">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/routeToolbar"
+            style="@style/toolbarmap"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:title="Directions"
+            app:titleMarginStart="10dp"
+            app:titleTextAppearance="@style/titleappear" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/from"
+                android:textAllCaps="true"
+                android:textColor="?textFillColor"
+                android:textSize="19sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/fromEditText"
+                style="@style/searchplace" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="25dp"
+                android:text="@string/to"
+                android:textAllCaps="true"
+                android:textColor="?textFillColor"
+                android:textSize="19sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/toEditText"
+                style="@style/searchplace"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/searchDir"
+        style="@style/buttonThemes"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:text="Search" />
+
+
+</LinearLayout>
